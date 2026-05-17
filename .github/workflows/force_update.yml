@@ -85,7 +85,7 @@ jobs:
       with:
         commit_message: "[Force] Re-summarize Fanqie ranks (${{ steps.date.outputs.dash_date }})"
         file_pattern: data/*
-        branch: main
+        branch: master
 
     # ---- Deploy to GitHub Pages ----
     - name: Setup Pages

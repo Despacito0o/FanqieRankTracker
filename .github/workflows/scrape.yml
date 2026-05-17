@@ -73,7 +73,7 @@ jobs:
       with:
         commit_message: "[Auto] Update Fanqie daily ranks"
         file_pattern: data/*
-        branch: main
+        branch: master
 
     # ---- Deploy to GitHub Pages (inline, 绕过 GITHUB_TOKEN 不触发其他 workflow 的限制) ----
     - name: Setup Pages
